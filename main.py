@@ -27,7 +27,7 @@ while turns>0:
     guesses +=guess
     if guess not in name:
         turns -=1
-        print("Wrong")
+        print("Wrong!")
         print("You have "+str(turns)+" more guesses")
     if turns == 0:
         print("You Lose")
