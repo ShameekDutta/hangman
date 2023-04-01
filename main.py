@@ -1,5 +1,5 @@
 import random
-name=input("Enter your name ")
+name=input("Enter your name :")
 print("Good Luck "+name+"!")
 file=open("names.txt")
 names=file.readlines()
