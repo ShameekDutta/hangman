@@ -31,7 +31,7 @@ while turns>0:
         print("You have "+str(turns)+" more guesses")
     if turns == 0:
         print("You Lose")
-        print("The movie was: ",name)
+        print("The movie name was: ",name)
 
 
 
